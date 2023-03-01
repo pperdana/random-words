@@ -1,0 +1,81 @@
+/*
+=============== 
+Variables
+===============
+*/
+
+:root {
+    --clr-black: #000000;
+    --clr-white: #F7FBFC;
+    --clr-prim1: #4B8673;
+    --clr-prim2: #F5DF99;
+    --clr-prim3: #CAD5B0;
+    --clr-prim4: #539758;
+    --ff-primary: "Poppins", sans-serif;
+    --ff-secondary: "Open Sans", sans-serif;
+    --transition: all 0.3s linear;
+    --spacing: 0.1rem;
+    --radius: 0.25rem;
+    --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    --max-width: 1170px;
+    --fixed-width: 620px;
+}
+html{
+    /* background-image: url("./img/pexels-putra-arin-wiratama-410487.jpg"); */
+    background: url(../img/bg-text.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.container{
+    background-color: var(--clr-prim3);
+    position: absolute;
+    top: 500px;
+    left: 50%;
+    transform: translate(-50%, -450px);
+    width: 75%;
+    opacity: 80%;
+
+    box-shadow: 2px 3px 20px #c0e3c6;
+
+}
+#title{
+    font-size: 3rem;
+    font-family: var(--ff-primary);
+    color:  var(--clr-prim1);
+    text-align: center;
+}
+p{
+    font-size: 1.5rem;
+    font-family: var(--ff-secondary);
+    color:  var(--clr-black);
+    text-align: justify;
+    padding: 0 60px;
+    text-indent: 80px
+
+}
+.section-btn{
+    text-align: center;
+}
+#btn{
+    font-size: 1.2rem;
+    font-family: var(--ff-primary);
+    padding: 13px 35px;
+    border-radius: 28px;
+    border: none;
+    box-shadow: 3px 3px 8px 1px #465449;
+
+    color:  var(--clr-prim2);
+    background-color: var(--clr-prim4);
+    margin-bottom: 20px;
+    /* margin: 0 auto 20px auto ; */
+}
+#btn:hover{
+    box-shadow: 2px 3px 15px 2px #839386;
+    color:  var(--clr-white);
+    background-color: var(--clr-prim1);
+
+
+}

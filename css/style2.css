@@ -1,0 +1,64 @@
+:root {
+    --clr-black: #222;
+    --clr-white: #F7FBFC;
+    --clr-prim1: #005555;
+    --clr-prim2: #069A8E;
+    --clr-prim3: #F7FF93;
+    --ff-primary: "Dancing Script", sans-serif;
+    --ff-secondary: "Noto Sans", sans-serif;
+    --transition: all 0.3s linear;
+    --spacing: 0.1rem;
+    --radius: 0.25rem;
+    --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    --max-width: 1170px;
+    --fixed-width: 620px;
+}
+html{
+    /* background-image: url("./img/pexels-putra-arin-wiratama-410487.jpg"); */
+    background: url(../img/bg-question.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container{
+    background-color: #C9DEB9;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    border-radius: 35px;
+    box-shadow: 10px 10px 15px 4px rgb(147, 188, 100);
+    opacity: 0.8;
+    border:none;
+}
+.title{
+    font-size: 5rem;
+    margin-bottom: 10%;
+    font-family: var(--ff-primary);
+    color: var(--clr-prim1);
+}
+
+p{
+    font-size: 2.3rem;
+    margin-bottom: 10%;
+}
+.btn{
+    font-size: 1.3rem;
+    padding: 15px 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px 2px #465449;
+    background-color: var(--clr-prim1);
+    color: var(--clr-prim3);
+    border:none;
+}
+.btn:hover{
+    box-shadow: 2px 2px 15px 3px #636e65;
+    background-color: var(--clr-prim2);
+    color: var(--clr-white);
+
+}
